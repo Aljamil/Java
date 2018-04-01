@@ -6,9 +6,16 @@ public class priorityQueue
 	{
 	   PriorityQueue<Double> queue = new PriorityQueue<>();
 
-	   queue.offer(7.2);
+	   queue.add(7.2);
 	   queue.offer(3.5);
 	   queue.offer(9.5);
+
+	   for(Double d : queue)
+	   {
+	   	  System.out.printf("%.2f ", d);
+	   }
+
+	   System.out.println();
 
     
 	   while(queue.size() > 0)

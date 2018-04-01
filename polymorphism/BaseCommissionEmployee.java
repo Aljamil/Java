@@ -38,6 +38,5 @@ public class BaseCommissionEmployee extends CommissionEmployee{
 							"Base Salary: ", getBaseSalary());
 	}
 
-
 }
 

@@ -12,6 +12,11 @@ public class Account{
  			this.balance = balance;
  	}
 
+ 	public Account()
+ 	{
+ 		setName(name);
+ 	}
+
  	public void deposit(double depositAmount)
  	{
  		if(depositAmount > 0.0)
